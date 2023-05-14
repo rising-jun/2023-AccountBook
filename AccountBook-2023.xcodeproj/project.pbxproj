@@ -10,13 +10,14 @@
 		27E8558024531B873A78AC7F /* Pods_AccountBook_2023.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B6EA54F2B954095F9DC142 /* Pods_AccountBook_2023.framework */; };
 		72A8FBF42A10A823004CB91D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A8FBF32A10A823004CB91D /* AppDelegate.swift */; };
 		72A8FBF62A10A823004CB91D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A8FBF52A10A823004CB91D /* SceneDelegate.swift */; };
-		72A8FBF82A10A823004CB91D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A8FBF72A10A823004CB91D /* ViewController.swift */; };
+		72A8FBF82A10A823004CB91D /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A8FBF72A10A823004CB91D /* SplashViewController.swift */; };
 		72A8FBFD2A10A826004CB91D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A8FBFC2A10A826004CB91D /* Assets.xcassets */; };
 		72A8FC002A10A826004CB91D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A8FBFE2A10A826004CB91D /* LaunchScreen.storyboard */; };
 		72A8FC0B2A10A827004CB91D /* AccountBook_2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A8FC0A2A10A827004CB91D /* AccountBook_2023Tests.swift */; };
 		72A8FC152A10A827004CB91D /* AccountBook_2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A8FC142A10A827004CB91D /* AccountBook_2023UITests.swift */; };
 		72A8FC172A10A827004CB91D /* AccountBook_2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A8FC162A10A827004CB91D /* AccountBook_2023UITestsLaunchTests.swift */; };
 		72F627482A10AE4C00EDAD3C /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 72F627472A10AE4C00EDAD3C /* .swiftlint.yml */; };
+		72F6274A2A10B4E900EDAD3C /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F627492A10B4E900EDAD3C /* CardViewController.swift */; };
 		E2DCD2EDAA902C1C878EF560 /* Pods_AccountBook_2023Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E1512515F9B31AC055079A /* Pods_AccountBook_2023Tests.framework */; };
 		F46340CA67B0C6D3F0BE3870 /* Pods_AccountBook_2023_AccountBook_2023UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B19BB7CF8494CBE3FD7D8E1 /* Pods_AccountBook_2023_AccountBook_2023UITests.framework */; };
 /* End PBXBuildFile section */
@@ -46,7 +47,7 @@
 		72A8FBF02A10A823004CB91D /* AccountBook-2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AccountBook-2023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A8FBF32A10A823004CB91D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72A8FBF52A10A823004CB91D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72A8FBF72A10A823004CB91D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72A8FBF72A10A823004CB91D /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		72A8FBFC2A10A826004CB91D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72A8FBFF2A10A826004CB91D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72A8FC012A10A826004CB91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		72A8FC142A10A827004CB91D /* AccountBook_2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBook_2023UITests.swift; sourceTree = "<group>"; };
 		72A8FC162A10A827004CB91D /* AccountBook_2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBook_2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		72F627472A10AE4C00EDAD3C /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		72F627492A10B4E900EDAD3C /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		7F9A484DE5160E3CA2FA35B7 /* Pods-AccountBook-2023Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountBook-2023Tests.release.xcconfig"; path = "Target Support Files/Pods-AccountBook-2023Tests/Pods-AccountBook-2023Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A073E978F08558E524FD08BF /* Pods-AccountBook-2023.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountBook-2023.release.xcconfig"; path = "Target Support Files/Pods-AccountBook-2023/Pods-AccountBook-2023.release.xcconfig"; sourceTree = "<group>"; };
 		D92208D5CD450240A0863634 /* Pods-AccountBook-2023-AccountBook-2023UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountBook-2023-AccountBook-2023UITests.debug.xcconfig"; path = "Target Support Files/Pods-AccountBook-2023-AccountBook-2023UITests/Pods-AccountBook-2023-AccountBook-2023UITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,10 +134,11 @@
 			children = (
 				72A8FBF32A10A823004CB91D /* AppDelegate.swift */,
 				72A8FBF52A10A823004CB91D /* SceneDelegate.swift */,
-				72A8FBF72A10A823004CB91D /* ViewController.swift */,
+				72A8FBF72A10A823004CB91D /* SplashViewController.swift */,
 				72A8FBFC2A10A826004CB91D /* Assets.xcassets */,
 				72A8FBFE2A10A826004CB91D /* LaunchScreen.storyboard */,
 				72A8FC012A10A826004CB91D /* Info.plist */,
+				72F627492A10B4E900EDAD3C /* CardViewController.swift */,
 			);
 			path = "AccountBook-2023";
 			sourceTree = "<group>";
@@ -425,7 +428,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72A8FBF82A10A823004CB91D /* ViewController.swift in Sources */,
+				72F6274A2A10B4E900EDAD3C /* CardViewController.swift in Sources */,
+				72A8FBF82A10A823004CB91D /* SplashViewController.swift in Sources */,
 				72A8FBF42A10A823004CB91D /* AppDelegate.swift in Sources */,
 				72A8FBF62A10A823004CB91D /* SceneDelegate.swift in Sources */,
 			);
